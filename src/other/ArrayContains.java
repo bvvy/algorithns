@@ -13,12 +13,8 @@ public class ArrayContains {
 
     public static void main(String[] args) {
         Comparable[] a = {"2", "A", "b", "c", "c", "d"};
-        Comparable[] b = {"A", "b","c"};
-        System.out.println(contains(a, b));
-
-        List<Integer> al = Arrays.asList(1, 3, 3, 5, 6, 7, 8, 1);
-        List<Integer> bl = Arrays.asList(8, 3, 6);
-        System.out.println(al.containsAll(bl));;
+        Comparable[] b = {"A", "b","c","c"};
+        System.out.println(containsChild(a, b));
     }
 
     public static  int contains(Comparable a[], Comparable[] b) {
@@ -30,6 +26,15 @@ public class ArrayContains {
             i++;
         }
         return 0;
+    }
+
+    public static int containsChild(Comparable [] a , Comparable [] b) {
+        for(int i=0,j=0;i<a.length;i++) {
+            if(eq(a[i],b[j++])){
+                if(j==b.length) return i;
+            } else j = 0;
+        }
+        return -1;
     }
 
     private static boolean eq(Comparable a, Comparable b) {
