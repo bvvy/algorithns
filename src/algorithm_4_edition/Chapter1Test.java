@@ -135,9 +135,20 @@ public class Chapter1Test {
         System.out.println(exR1(6));
     }
 
+    @Test
+    public void test1_1_18() {
+        System.out.println(mystery(3, 4));
+    }
+
     private static String exR1(int n) {
         if (n <= 0) return "";
         return exR1(n - 3) + n + exR1(n - 2) + n;
+    }
+
+    private static int mystery(int a, int b) {
+        if (b == 0) return 1;
+        if (b % 2 == 0) return mystery(a * a, b / 2);
+        return mystery(a * a, b / 2) * a;
     }
 
 }

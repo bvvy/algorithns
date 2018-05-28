@@ -59,8 +59,11 @@ link:Ex1_1_14.java[java code]
 link:Ex1_1_15.java[java code]
 
 === 1.1.16
-
-=== 1.1.17
 311361142246
 
+=== 1.1.17
+stackoverflow exception
+
 === 1.1.18
+
+
