@@ -1,4 +1,4 @@
-package com.jimmysun.algorithms.chapter1_1;
+package algorithm_4_edition.ex1_1;
 
 import java.awt.Color;
 

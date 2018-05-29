@@ -1,4 +1,4 @@
-package algorithm_4_edition;
+package algorithm_4_edition.ex1_1;
 
 import com.sun.org.apache.xalan.internal.xsltc.dom.SortingIterator;
 import sun.java2d.pipe.SpanIterator;

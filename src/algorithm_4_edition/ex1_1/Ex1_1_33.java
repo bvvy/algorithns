@@ -1,4 +1,4 @@
-package algorithm_4_edition;
+package algorithm_4_edition.ex1_1;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

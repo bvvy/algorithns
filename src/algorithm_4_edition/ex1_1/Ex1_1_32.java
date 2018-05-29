@@ -1,4 +1,4 @@
-package algorithm_4_edition;
+package algorithm_4_edition.ex1_1;
 
 import edu.princeton.cs.algs4.StdDraw;
 
