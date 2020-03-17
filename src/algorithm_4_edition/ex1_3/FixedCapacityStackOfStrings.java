@@ -1,6 +1,5 @@
 package algorithm_4_edition.ex1_3;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
 import java.util.function.Consumer;
@@ -11,8 +10,6 @@ import java.util.function.Consumer;
  */
 public class FixedCapacityStackOfStrings implements Iterable<String> {
 
-
-    @NotNull
     @Override
     public Iterator<String> iterator() {
         return new StringIterator();

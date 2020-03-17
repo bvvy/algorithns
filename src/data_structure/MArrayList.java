@@ -1,5 +1,7 @@
 package data_structure;
 
+import java.util.HashSet;
+
 public class MArrayList<Item> {
 
     private Item[] items;

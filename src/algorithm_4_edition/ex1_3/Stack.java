@@ -1,6 +1,5 @@
 package algorithm_4_edition.ex1_3;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
 
@@ -39,8 +38,6 @@ public class Stack<Item> implements Iterable<Item> {
     public Item peek() {
         return first.item;
     }
-
-    @NotNull
     @Override
     public Iterator<Item> iterator() {
         return new ListIterator();
